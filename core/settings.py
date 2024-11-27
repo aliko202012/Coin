@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nrgxan.pythonanywhere.com',]
+ALLOWED_HOSTS = ['nrgxantm11.pythonanywhere.com',]
 
 
 # Application definition
@@ -125,10 +125,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'home/nrgxantm/static/'
+STATIC_ROOT = '/home/nrgxantm11/static/'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = 'home/nrgxantm/media/'
+MEDIA_ROOT = '/home/nrgxantm11/media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
